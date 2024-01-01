@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: times new roman;
+      background-image: url("file:///C:/Users/DELL/Downloads/pic.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    form {
+      max-width: 500px;
+      background-color: #fff;
+      padding: 150px;
+      border-radius: 55px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+    input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 25px;
+      box-sizing: border-box;
+      font-size: 25px;
+    }
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 20px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin:30px;
+      font-size: 26px;
+    }
+  </style>
+</head>
+<body>
+  <form action="/login" method="post">
+   <center> <h1>LOG IN</h1> </center>
+
+    <label for="Email ID">Email ID:
+      <input type="text" id="Email ID" name="Email ID" required>
+    </label>
+
+    <label for="password">Password:
+      <input type="password" id="password" name="password" required>
+    </label>
+ 
+   <left> <button type="submit">Login</button></left>
+   <right> <button type="submit">cancel</button></right>
+
+  </form>
+</body>
+</html>
